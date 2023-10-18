@@ -1,0 +1,23 @@
+.greeding{
+    font-size: 24px;
+}
+.morning{
+    color: green;
+}
+.afternoon{
+    color: blue;
+}
+.evening{
+    color: red;
+}
+.second span{
+    animation: changOlor 2s linear infinite;
+}
+@keyframes changeColor{
+    0%{
+        color: red;
+    }
+    100%{
+        color: green;
+    }
+}
