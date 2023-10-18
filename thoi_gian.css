@@ -2,10 +2,21 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+/* .time{
+    color: red;
+} */
+.morning{
+    color: blue;
+}
+.evening{
+    color: red;
+}
+.afternoon{
+    color: green;
+}
  h3 , p{
     float :left;
     clear: left;
-    color:gray;
     text-align: center;
 }
 body {
