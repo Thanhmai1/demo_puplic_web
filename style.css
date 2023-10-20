@@ -1,23 +1,16 @@
-.greeding{
-    font-size: 24px;
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: palegreen;                
+    color: grey;
 }
-.morning{
+h1{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.green-text {
     color: green;
 }
-.afternoon{
-    color: blue;
-}
-.evening{
+.red-text {
     color: red;
-}
-.second span{
-    animation: changOlor 2s linear infinite;
-}
-@keyframes changeColor{
-    0%{
-        color: red;
-    }
-    100%{
-        color: green;
-    }
 }
