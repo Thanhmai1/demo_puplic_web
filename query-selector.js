@@ -1,0 +1,18 @@
+// var el = document.querySelector('li.hot');
+// el.className = 'cool';
+// el.className = 'hot';
+// var els = document.querySelectorAll('li.hot');
+// var p = document.createElement('p');
+// var count = els.length;
+// p.innerText = 'Số lượng phần tử: ' + count;
+// document.body.appendChild(p);
+// els[1].className = 'cool';
+// var els = document.querySelectorAll('li.hot');
+// var p = document.createElement('p');
+// var count = els.length;
+// p.innerText = 'Số lượng phần tử: ' + count;
+// document.body.appendChild(p);
+var el = document.querySelector('li.hot');
+el.className ='cool';
+var els = document.querySelectorAll('li.hot');
+els[1].className = 'cool';

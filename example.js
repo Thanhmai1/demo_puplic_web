@@ -1,17 +1,19 @@
-var table =3;
-var operator = 'addition';
-var i = 1;
-var msg ='';
-if (operator === 'addition'){
-    while(i >11){
-        msg += i+'+' + table;e + '=' + (i + table)+ '<br />';
-        i++;
-    }
-} else{
-    while( i <11){
-        msg += i + 'x' + table + '=' +(i * table) + '<br />';
-        i++;
-    }
+var list = document.getElementsByTagName('ul')[0];
+var newItemLast = document.createElement('li');
+var newTextLast = document.createTextNode('cream');
+newItemLast.appendChild(newTextLast);
+list.appendChild(newTextLast);
+var newItemFirst = document.createElement('li');
+var newItemFirst = document.createTextNode('kale');
+newItemFirst.appendChild(newTextFirst);
+list.inserBefore(newItemFirst, list.firstChild);
+var listItems = document.querySelectorAll('li');
+var i;
+for (i = 0; i < listItems.length;i++){
+    listItems[i].className='cool';
 }
-var el = document.getElementById('blackbroad');
-el.innerHTML = msg;
+var heading=document.querySelector('h2');
+var headingText = heading.firstChild.nodeValue;
+var totalItems = listItems - listItems.length;
+var newHeading = headingText + '<span> + totalItems + </span>';
+heading.innerHTML = newHeading;
