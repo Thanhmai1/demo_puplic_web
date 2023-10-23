@@ -1,0 +1,9 @@
+body{
+    padding: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+li{
+    padding: 12px;
+    margin: 12px;
+}
