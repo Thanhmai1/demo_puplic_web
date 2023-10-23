@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: gray;
+    /* list-style-type: none; */
+}
+h1{
+    font-family: 'Courier New', Courier, monospaces;
+}
+/* ul{
+    letter-spacing: 0.5em;
+} */
+.dark{
+    list-style-type: none;;
+    background-color:black;
+    color: aliceblue;
+}
+.white{
+    list-style-type: none;
+    background-color: whitesmoke;
+    color: black;
+}
